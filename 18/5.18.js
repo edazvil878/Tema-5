@@ -3,29 +3,29 @@
 
 class Asignatura {
   constructor(nombre, nota) {
-    this._nombre = nombre;
-    this._nota = nota;
+    this.nombre = nombre;
+    this.nota = nota;
   }
 
   // Método para obtener el nombre de la asignatura
   obtenerNombre() {
-    return this._nombre;
+    return this.nombre;
   }
 
   // Método para establecer el nombre de la asignatura
   establecerNombre(nuevoNombre) {
-    this._nombre = nuevoNombre;
+    this.nombre = nuevoNombre;
   }
 
   // Método para obtener la nota de la asignatura
   obtenerNota() {
-    return this._nota;
+    return this.nota;
   }
 
   // Método para establecer la nota de la asignatura
   establecerNota(nuevaNota) {
     if (nuevaNota >= 0 && nuevaNota <= 10) {
-      this._nota = nuevaNota;
+      this.nota = nuevaNota;
     } else {
       console.error("La nota debe estar en el rango de 0 a 10");
     }
