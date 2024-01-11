@@ -1,0 +1,1 @@
+/* Crea una expresión regular que valide una hora en formato HH:MM de 24 horas, donde HH representa las horas y MM los minutos */
